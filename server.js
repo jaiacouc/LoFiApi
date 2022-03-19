@@ -13,7 +13,10 @@ const PORT = process.env.PORT || 4000;
 
 // Connect to database
 mongoose
-  .connect("mongodb+srv://adm:J1WswcuAWrD3aewV@cluster0.wgb4f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { useNewUrlParser: true })
+  .connect(
+    "mongodb+srv://adm:J1WswcuAWrD3aewV@cluster0.wgb4f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    { useNewUrlParser: true }
+  )
   .then(() => {
     console.log("Database is connected");
   })
@@ -37,7 +40,7 @@ app.use("/uploads", express.static("uploads"));
 
 // Test Route
 app.get("/", (req, res) => {
-  res.json("Api connection");
+  res.json("Api connection: updated response");
 });
 
 // Define api routes
