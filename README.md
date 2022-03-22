@@ -39,7 +39,6 @@ This project was made with:
 - Example:
 
 ```
-function App() {
   async function fetchSong() {
     const res = await fetch("https://lofi-api.azurewebsites.net/music");
     const data = await res.json();
