@@ -15,6 +15,10 @@ let musicSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  musicURL: {
+    type: String,
+    required: true,
+  },
   created: {
     type: Date,
     default: Date.now(),

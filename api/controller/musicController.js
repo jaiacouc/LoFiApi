@@ -19,6 +19,7 @@ exports.addNewMusic = async (req, res) => {
     const music = new Music({
       title: req.body.title,
       artist: req.body.artist,
+      musicURL: req.body.musicURL,
       music: req.file,
     });
     // wait to finish and save
