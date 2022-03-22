@@ -9,12 +9,12 @@ const mongoose = require("mongoose");
 const app = express();
 
 // Set port
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 4000;
 
 // Connect to database
 mongoose
   .connect(
-    "mongodb+srv://adm:J1WswcuAWrD3aewV@cluster0.wgb4f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongodb://lofiapi:ZYetGIyJCXCfcVBQEAv3HW6r8I5kfINogKOSukq682V4dIybvFbGDTc703jhFsE9KVDQLZ2qAXfqQy4LVobvlQ==@lofiapi.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@lofiapi@",
     { useNewUrlParser: true }
   )
   .then(() => {
