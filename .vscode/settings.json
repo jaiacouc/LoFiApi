@@ -1,5 +1,5 @@
 {
   "appService.showBuildDuringDeployPrompt": false,
-  "appService.defaultWebAppToDeploy": "/subscriptions/656830b1-6de7-4a70-90ef-bf07103beaf0/resourceGroups/api-resource-group/providers/Microsoft.Web/sites/LoFi-API",
+  "appService.defaultWebAppToDeploy": "/**",
   "appService.deploySubpath": "."
 }
