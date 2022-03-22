@@ -10,9 +10,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '3699e003-34fc-4bcb-af5d-e65b2c21fccd'
-  imageRepository: 'jaiacouclofiapi'
-  containerRegistry: 'lofiapicontainerregistry.azurecr.io'
+  dockerRegistryServiceConnection: ''
+  imageRepository: ''
+  containerRegistry: ''
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
