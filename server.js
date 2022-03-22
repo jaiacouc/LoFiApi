@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 80;
 // Connect to database
 mongoose
   .connect(
-    "mongodb+srv://adm:J1WswcuAWrD3aewV@cluster0.wgb4f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "database_url",
     { useNewUrlParser: true }
   )
   .then(() => {
