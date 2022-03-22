@@ -17,7 +17,7 @@
 - This is a API that allows the user to make requests to get songs from a mongodb database.
 - The database is hosted in a Azure Cosmos for MongoDB.
 - The Api is hosted in a Azure web app that is deployed using the nodejs code. The api uses expressjs for the routes and queries the database to return json data.
-- The api allows for the user to Add songs, delete songs, and get all songs that are stored within the database.
+- The api allows for the user to get all songs that are stored within the database.
 - I created this project to use in tandem with another project I was working on where I needed music to be played so instead of using soundcloud api or spotify I decided to create my own.
 
 ## Technologies and Frameworks
@@ -39,7 +39,6 @@ This project was made with:
 - Example:
 
 ```
-function App() {
   async function fetchSong() {
     const res = await fetch("https://lofi-api.azurewebsites.net/music");
     const data = await res.json();
