@@ -9,6 +9,8 @@
 - [Technologies and Frameworks](#technologies-and-frameworks)
 - [Usage](#usage)
 - [Project Status](#project-status)
+- [Improvements](#room-for-improvement)
+- [Acknowledgements](#acknowledgments)
 
 ## General Information
 
@@ -47,4 +49,15 @@ function App() {
 
 ## Project Status
 
-Project is: _Complete_ and _Live_
+Project is: _Live_
+
+## Room for Improvement
+
+Possible future features:
+
+- Add songs by artists
+- Add single songs requests
+
+## Acknowledgments
+
+Music sourced from: https://pixabay.com
